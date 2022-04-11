@@ -1,0 +1,35 @@
+.checkout {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+}
+.checkout__ad {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* DEMO */
+.ckeckout_items {
+  display: flex;
+  gap: 3rem;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+.item_info {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.item_image > img {
+  width: 12rem;
+}
+
+@media only screen and (max-width: 720px) {
+.checkout{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+}
+
